@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gtuexampaper13">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="GTU Paper"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gtuexampaper13">
+
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4744854543760031~6103904655"/>
+
+        <activity android:name=".MainActivity6"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"/>
+
+        <activity android:name=".MainActivity4"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:parentActivityName=".MainActivity3"/>
+
+        <activity android:name=".MainActivity3"
+            android:exported="true"
+            android:parentActivityName=".MainActivity2"/>
+
+        <activity android:name=".MainActivity2"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".MainActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
