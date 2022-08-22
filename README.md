@@ -1,7 +1,7 @@
 # GTU Exam Paper Application
 Hello Student,This is GTU Exam Paper Application. This app definetly use to you finding latest exam paper and syllabus of any branch.
 
-![Screenshot (377)]<img src="https://user-images.githubusercontent.com/95022793/185818821-d8ae396a-8d60-495e-b92d-1c6c20a7e072.png" width="350" height="550">
+![Screenshot (377)]<img src="https://user-images.githubusercontent.com/95022793/185818821-d8ae396a-8d60-495e-b92d-1c6c20a7e072.png" width="350" height="700">
  
  ![Screenshot (377)](https://user-images.githubusercontent.com/95022793/185818821-d8ae396a-8d60-495e-b92d-1c6c20a7e072.png =250x250)
 ![Screenshot (375)](https://user-images.githubusercontent.com/95022793/185818862-b1523c18-be80-4e07-b90b-0dac70841649.png)
